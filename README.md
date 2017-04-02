@@ -1,9 +1,9 @@
-# Since THERMOS is no longer being developed- and servers are reduced to using Sponge for 1.8+, this project is dedicated to renewing the ability for MC servers to use native bukkit plugins along with Forge mods.
+# Since THERMOS is no longer being developed- and servers are reduced to using Sponge for 1.8+, this project is dedicated to renewing the ability for Minecraft servers to use native bukkit plugins along with Forge mods.
 
 # Contigo
 
-![Thermos](contigo_icon.png)
-[//]: #![Graph](http://i.mcstats.org/Thermos/Global+Statistics@2x.borderless.png)
+![Contigo](contigo_icon.png)
+<!--- ![Graph](http://i.mcstats.org/Thermos/Global+Statistics@2x.borderless.png) --->
 
 [![Build Status](https://travis-ci.org/CyberdyneCC/Thermos.svg?branch=master)](https://travis-ci.org/CyberdyneCC/Thermos)
 ![Minecraft Forge v10.13.4.1614][forge]
@@ -14,7 +14,7 @@
 ### What's Contigo?
 Contigo is a fork of Thermos, a craftbukkit forge server for Minecraft 1.7.10. After Thermos was discontinued, Contigo was created to allow active members of the Minecraft coding community to optimize it and provide fixes in a timely manner.
 
-We hope to eliminate all issues with craftbukkit forge servers. In the end, we envision a seamless, low lag Contigo experience.
+We hope to eliminate all issues with craftbukkit forge servers. In the end, we envision a seamless, low lag Contigo experience with support for new 1.8+ versions of Minecraft.
 
 Advantages over KCauldron:
 + Lag-lowering optimizations
@@ -26,9 +26,9 @@ Advantages over KCauldron:
 ## Installation
 Click [here](http://cyberdynecc.github.io/Thermos/install)
 
-[//]: ### Downloads
-[//]: #You can download the pre-built packages from [here](https://github.com/CyberdyneCC/Thermos/releases). 
-
+<!--- ### Downloads
+#You can download the pre-built packages from [here](https://github.com/CyberdyneCC/Thermos/releases). 
+--->
 **Contigo is still in early alpha and you may encounter issues in using it with your server. You have been warned!**
 
 P.S. **PLEASE** look at the release notes before downloading! :smile:
@@ -40,11 +40,13 @@ P.S. **PLEASE** look at the release notes before downloading! :smile:
 
 Feel free to drop in on the Contigo Discord chat [here](https://discord.gg/cNpacKk)
 
-[//]: ### Donate/Support
+<!---
+### Donate/Support
+--->
 
 ## Contributing
 
-Please read the [guide](https://github.com/CyberdyneCC/Thermos/blob/master/CONTRIBUTING.md) on how to contribute - Contigo always needs improvements :smile: 
+Please read the [guide](https://github.com/gcallant/Contigo/blob/master/CONTRIBUTING.md) on how to contribute - Contigo always needs improvements :smile: 
 
 
 
@@ -56,7 +58,7 @@ Please read the [guide](https://github.com/CyberdyneCC/Thermos/blob/master/CONTR
 ## Building gcallant/Contigo
 * Checkout project
   * You can use IDE or clone from console:
-  `git clone https://github.com/CyberdyneCC/Thermos.git`
+  `git clone https://github.com/gcallant/Contigo.git`
 * Setup
   * Auto: `setup.sh`
   * Manual:
