@@ -7,7 +7,7 @@ buildscript {
     repositories {
         maven {
             name 'prok'
-            url 'https://repo.prok.pw/'
+            url 'http://repo.prok.pw/'
         }
         maven {
             name 'forge'
@@ -47,7 +47,7 @@ repositories {
     }
     maven {
         name 'prok'
-        url 'https://repo.prok.pw/'
+        url 'http://repo.prok.pw/'
     }
     maven {
         name 'forge'
@@ -55,7 +55,7 @@ repositories {
     }
     maven {
         name 'minecraft'
-        url 'https://libraries.minecraft.net/'
+        url 'http://libraries.minecraft.net/'
     }
     maven {
         name 'spigot'
@@ -289,7 +289,7 @@ publishing {
     repositories {
         maven {
             name 'ProK'
-            url 'https://repo.prok.pw/'
+            url 'http://repo.prok.pw/'
             credentials {
                 username project.hasProperty('prokRepoUsername') ? prokRepoUsername : null
                 password project.hasProperty('prokRepoPassword') ? prokRepoPassword : null
@@ -324,7 +324,7 @@ repositories {
     clear()
     maven {
         name 'prok'
-        url 'https://repo.prok.pw/'
+        url 'http://repo.prok.pw/'
     }
     maven {
         name 'forge'
