@@ -55,7 +55,7 @@ repositories {
     }
     maven {
         name 'minecraft'
-        url 'http://libraries.minecraft.net/'
+        url 'https://libraries.minecraft.net/'
     }
     maven {
         name 'spigot'
