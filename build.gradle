@@ -7,11 +7,11 @@ buildscript {
     repositories {
         maven {
             name 'prok'
-            url 'http://ray.cubicsun.space/'
+            url 'http://ray.cubicsun.space/repo/'
         }
         maven {
             name 'forge'
-            url 'http://files.minecraftforge.net/maven'
+            url 'http://files.minecraftforge.net/maven/'
         }
         maven {
             name 'sonatype'
@@ -47,11 +47,11 @@ repositories {
     }
     maven {
         name 'prok'
-        url 'http://ray.cubicsun.space/'
+        url 'http://ray.cubicsun.space/repo/'
     }
     maven {
         name 'forge'
-        url 'http://files.minecraftforge.net/maven'
+        url 'http://files.minecraftforge.net/maven/'
     }
     maven {
         name 'minecraft'
@@ -289,7 +289,7 @@ publishing {
     repositories {
         maven {
             name 'ProK'
-            url 'http://ray.cubicsun.space/'
+            url 'http://ray.cubicsun.space/repo/'
             credentials {
                 username project.hasProperty('prokRepoUsername') ? prokRepoUsername : null
                 password project.hasProperty('prokRepoPassword') ? prokRepoPassword : null
@@ -324,11 +324,11 @@ repositories {
     clear()
     maven {
         name 'prok'
-        url 'http://ray.cubicsun.space/'
+        url 'http://ray.cubicsun.space/repo/'
     }
     maven {
         name 'forge'
-        url 'http://files.minecraftforge.net/maven'
+        url 'http://files.minecraftforge.net/maven/'
     }
     maven {
         name 'minecraft'
