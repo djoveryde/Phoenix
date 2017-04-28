@@ -7,7 +7,7 @@ buildscript {
     repositories {
         maven {
             name 'prok'
-            url 'http://repo.prok.pw/'
+            url 'http://ray.cubicsun.space/'
         }
         maven {
             name 'forge'
@@ -47,7 +47,7 @@ repositories {
     }
     maven {
         name 'prok'
-        url 'http://repo.prok.pw/'
+        url 'http://ray.cubicsun.space/'
     }
     maven {
         name 'forge'
