@@ -7,7 +7,7 @@ buildscript {
     repositories {
         maven {
             name 'prok'
-            url 'https://1drv.ms/f/s!AhTZsFCMTRcErFE1qp95IL07LCAp'
+            url 'https://repo.prok.pw/'
         }
         maven {
             name 'forge'
@@ -25,6 +25,7 @@ buildscript {
             dirs 'libs'
         }
         mavenCentral()
+        mavenLocal()
     }
     dependencies {
         classpath files('FGS.jar')
@@ -69,6 +70,7 @@ repositories {
     }
  
     mavenCentral()
+    mavenLocal()
 }
 
 minecraft {
@@ -171,6 +173,7 @@ dependencies {
     libraries 'org.fusesource.jansi:jansi:1.11'
 	libraries 'com.koloboke:koloboke-impl-jdk8:1.0.0'
 	libraries 'java3d:vecmath:1.3.1'
+	libraries fileTree(dir: "libs", include: "*.jar")
 }
 
 packageUniversal {
@@ -341,6 +344,7 @@ repositories {
         url 'https://libraries.minecraft.net/'
     }
     mavenCentral()
+    mavenLocal()
 }
 dependencies {
 ''')
