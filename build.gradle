@@ -7,7 +7,7 @@ buildscript {
     repositories {
         maven {
             name 'prok'
-            url 'https://repo.prok.pw/'
+            url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
         }
         maven {
             name 'forge'
@@ -50,7 +50,7 @@ repositories {
     }
     maven {
         name 'prok'
-        url 'https://1drv.ms/f/s!AhTZsFCMTRcErFE1qp95IL07LCAp'
+        url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
     }
     maven {
         name 'forge'
