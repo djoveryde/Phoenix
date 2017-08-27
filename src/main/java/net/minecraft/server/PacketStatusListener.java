@@ -1,4 +1,4 @@
-@@ -33,7 +33,21 @@ public class PacketStatusListener implements PacketStatusInListener {
+public class PacketStatusListener implements PacketStatusInListener {
   
       public void a() {}
   
@@ -20,7 +20,7 @@
           // CraftBukkit start - fire ping event
           final Object[] players = minecraftServer.getPlayerList().players.toArray();
           class ServerListPingEvent extends org.bukkit.event.server.ServerListPingEvent {
- @@ -130,6 +144,13 @@ public class PacketStatusListener implements PacketStatusInListener {
+public class PacketStatusListener implements PacketStatusInListener {
       }
   
       public void a(PacketStatusInPing packetstatusinping) {
@@ -34,5 +34,3 @@
           this.networkManager.handle(new PacketStatusOutPong(packetstatusinping.c()), new GenericFutureListener[0]);
       }
   }
-
-        
