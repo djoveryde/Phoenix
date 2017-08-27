@@ -21,7 +21,9 @@ buildscript {
             name 'spigot'
             url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
         }
-
+        flatDir {
+            dirs 'libs'
+        }
         mavenCentral()
     }
     dependencies {
@@ -35,7 +37,7 @@ tasks.whenTaskAdded {
 }
 
 apply plugin: 'maven'
-apply plugin: 'cauldron'
+// apply plugin: 'cauldron'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
 
@@ -45,10 +47,10 @@ repositories {
         name 'sonatype'
         url 'http://oss.sonatype.org/content/repositories/snapshots/'
     }
-    maven {
-        name 'prok'
-        url 'http://ray.cubicsun.space/repo/'
-    }
+//    maven {
+//        name 'prok'
+//        url 'http://ray.cubicsun.space/repo/'
+//    }
     maven {
         name 'forge'
         url 'http://files.minecraftforge.net/maven/'
@@ -62,6 +64,10 @@ repositories {
         url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
     }
 
+    flatDir {
+        dirs 'libs'
+    }
+ 
     mavenCentral()
 }
 
