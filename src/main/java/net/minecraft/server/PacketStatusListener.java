@@ -34,5 +34,3 @@
           this.networkManager.handle(new PacketStatusOutPong(packetstatusinping.c()), new GenericFutureListener[0]);
       }
   }
- 2.5.0
- 
