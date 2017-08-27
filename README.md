@@ -2,7 +2,7 @@
 
 # I MYSELF HAVE BERY LIMITED KNOWLEDGE TO THE CODING SCENE OF CORE LOADERS. I AM OPEN TO ALL CONTRIBUTIONS TO RESURRECTING THIS AND MAKING IT STABLE FOR THOSE THAT STILL USE 1.7.10 FOR THEIR MODPACKS.
 
-# Thermos
+# DJOveryde
 
 ![Thermos](thermos_icon.png)
 ![Graph](http://i.mcstats.org/Thermos/Global+Statistics@2x.borderless.png)
