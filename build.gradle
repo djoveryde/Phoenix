@@ -298,7 +298,7 @@ publishing {
     repositories {
         maven {
             name 'ProK'
-            url 'http://ray.cubicsun.space/repo/'
+            url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
             credentials {
                 username project.hasProperty('prokRepoUsername') ? prokRepoUsername : null
                 password project.hasProperty('prokRepoPassword') ? prokRepoPassword : null
@@ -333,7 +333,7 @@ repositories {
     clear()
     maven {
         name 'prok'
-        url 'http://ray.cubicsun.space/repo/'
+        url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
     }
     maven {
         name 'forge'
