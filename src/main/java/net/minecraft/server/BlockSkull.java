@@ -1,5 +1,5 @@
 
- @@ -82,7 +82,14 @@ public class BlockSkull extends BlockContainer {
+public class BlockSkull extends BlockContainer {
       public void dropNaturally(World world, int i, int j, int k, int l, float f, int i1) {
           if (world.random.nextFloat() < f) {
               ItemStack itemstack = new ItemStack(Items.SKULL, 1, this.getDropData(world, i, j, k));
@@ -14,5 +14,3 @@
   
               if (tileentityskull.getSkullType() == 3 && tileentityskull.getGameProfile() != null) {
                   itemstack.setTag(new NBTTagCompound()); 
- 2.5.0
- 
