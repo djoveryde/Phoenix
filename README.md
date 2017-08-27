@@ -1,8 +1,6 @@
-# THERMOS IS NO LONGER BEING DEVELOPED. IF YOU MAKE AN ISSUE, IT WILL NOT BE RESOLVED AND WILL JUST BE CLOSED.
+# THIS IS AN UNOFFICIAL FORK OF THERMOS SEEING AS THE DEVELOPER HAS ABANDONED THE PROJECT I WAS HOPING TO COMPILE ANY CHANGES INTO THIS PROJECT.
 
-# Thermos (Те́рмос)(TH啦)
-
-[Русский](https://cyberdynecc.github.io/Thermos/#googtrans(en|ru)) [Deutsch](https://cyberdynecc.github.io/Thermos/#googtrans(en|de)) [Français](https://cyberdynecc.github.io/Thermos/#googtrans(en|fr)) [Español](https://cyberdynecc.github.io/Thermos/#googtrans(en|es)) [Português](https://cyberdynecc.github.io/Thermos/#googtrans(en|pt)) [Nederlands](https://cyberdynecc.github.io/Thermos/#googtrans(en|nl)) [汉语](https://cyberdynecc.github.io/Thermos/#googtrans(en|jp)) [日本語](https://cyberdynecc.github.io/Thermos/#googtrans(en|zh)) [조선말](https://cyberdynecc.github.io/Thermos/#googtrans(en|ko)) [हिन्दी](https://cyberdynecc.github.io/Thermos/#googtrans(en|hi))
+# Thermos
 
 ![Thermos](thermos_icon.png)
 ![Graph](http://i.mcstats.org/Thermos/Global+Statistics@2x.borderless.png)
@@ -42,9 +40,6 @@ P.S. **PLEASE** look at the release notes before downloading! :smile:
 
 Feel free to drop in on the CyberdyneCC Discord chat [here](https://discord.gg/0yZaOwSQocQHebex)
 
-## Donate/Support
-
-You can pledge to support Robotia and his work through a monthly [Patreon](https://www.patreon.com/robotia) donation or a one-time [PayPal](http://paypal.me/robotia) donation.
 
 ## Contributing
 
@@ -60,7 +55,7 @@ Please read the [guide](https://github.com/CyberdyneCC/Thermos/blob/master/CONTR
 ## Building CyberdyneCC/Thermos
 * Checkout project
   * You can use IDE or clone from console:
-  `git clone https://github.com/CyberdyneCC/Thermos.git`
+  `git clone https://github.com/djoveryde/Thermos.git`
 * Setup
   * Auto: `setup.sh`
   * Manual:
