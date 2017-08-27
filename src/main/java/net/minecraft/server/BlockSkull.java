@@ -14,3 +14,7 @@ public class BlockSkull extends BlockContainer {
   
               if (tileentityskull.getSkullType() == 3 && tileentityskull.getGameProfile() != null) {
                   itemstack.setTag(new NBTTagCompound()); 
+              }
+          }
+      }
+}
