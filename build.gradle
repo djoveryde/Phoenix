@@ -7,7 +7,7 @@ buildscript {
     repositories {
         maven {
             name 'prok'
-            url 'http://ray.cubicsun.space/repo/'
+            url 'https://sourceforge.net/projects/kcauldron/files/'
         }
         maven {
             name 'forge'
@@ -27,7 +27,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-//        classpath files('FGS.jar')
+        classpath files('FGS.jar')
         classpath 'net.minecraftforge.gradle:ForgeGradle:1.2-SNAPSHOT'
     }
 }
@@ -37,7 +37,7 @@ tasks.whenTaskAdded {
 }
 
 apply plugin: 'maven'
-// apply plugin: 'cauldron'
+apply plugin: 'cauldron'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
 
@@ -47,10 +47,10 @@ repositories {
         name 'sonatype'
         url 'http://oss.sonatype.org/content/repositories/snapshots/'
     }
-//    maven {
-//        name 'prok'
-//        url 'http://ray.cubicsun.space/repo/'
-//    }
+    maven {
+        name 'prok'
+        url 'https://sourceforge.net/projects/kcauldron/files/'
+    }
     maven {
         name 'forge'
         url 'http://files.minecraftforge.net/maven/'
