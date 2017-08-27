@@ -33,4 +33,6 @@ public class PacketStatusListener implements PacketStatusInListener {
          // PaperSpigot end
           this.networkManager.handle(new PacketStatusOutPong(packetstatusinping.c()), new GenericFutureListener[0]);
       }
-  }
+          }
+      }
+}
