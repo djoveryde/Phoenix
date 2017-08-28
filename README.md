@@ -51,7 +51,7 @@ Please read the [guide](https://github.com/gcallant/Contigo/blob/master/CONTRIBU
 ## Building gcallant/Contigo
 * Checkout project
   * You can use IDE or clone from console:
-  `git clone https://github.com/gcallant/Contigo.git`
+  `git clone https://github.com/djoveryde/Contigo.git`
 * Setup
   * Auto: `setup.sh`
   * Manual:
