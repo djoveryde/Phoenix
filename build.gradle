@@ -7,7 +7,7 @@ buildscript {
     repositories {
         maven {
             name 'prok'
-            url 'http://contigo.epizy.com/kcauldron/files/'
+            url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
         }
         maven {
             name 'forge'
@@ -50,7 +50,7 @@ repositories {
     }
     maven {
         name 'prok'
-        url 'http://contigo.epizy.com/kcauldron/files/'
+        url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
     }
     maven {
         name 'forge'
@@ -87,11 +87,17 @@ group = 'cyberdynecc'
 ext.buildInfoCached = null;
 
 def buildInfo(String key) {
-	buildInfoCached = [
-		nextBuildNumber: 'UNOFFICIAL',
-		version        : 'NONE'
-	]
-    return buildInfoCached;
+    if (!buildInfoCached) {
+        if (project.hasProperty('officialBuild')) {
+            buildInfoCached = new JsonSlurper().parse(new URL("https://th.tcpr.ca/version"))
+        } else {
+            buildInfoCached = [
+                    nextBuildNumber: 'UNOFFICIAL',
+                    version        : 'NONE'
+            ]
+        }
+    }
+    return key ? buildInfoCached[key] : buildInfoCached;
 }
 
 ext.gitInfoCached = null;
@@ -292,7 +298,7 @@ publishing {
     repositories {
         maven {
             name 'ProK'
-            url 'http://contigo.epizy.com/kcauldron/files/'
+            url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
             credentials {
                 username project.hasProperty('prokRepoUsername') ? prokRepoUsername : null
                 password project.hasProperty('prokRepoPassword') ? prokRepoPassword : null
@@ -327,7 +333,7 @@ repositories {
     clear()
     maven {
         name 'prok'
-        url 'http://contigo.epizy.com/kcauldron/files/'
+        url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
     }
     maven {
         name 'forge'
