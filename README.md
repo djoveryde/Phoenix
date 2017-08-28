@@ -1,11 +1,9 @@
-# THIS IS AN UNOFFICIAL FORK OF THERMOS SEEING AS THE DEVELOPER HAS ABANDONED THE PROJECT I WAS HOPING TO COMPILE ANY CHANGES INTO THIS PROJECT.
+# Since THERMOS is no longer being developed- and servers are reduced to using Sponge for 1.8+, this project is dedicated to renewing the ability for Minecraft servers to use native bukkit plugins along with Forge mods.
 
-# I MYSELF HAVE VERY LIMITED KNOWLEDGE TO THE CODING SCENE OF CORE LOADERS. I AM OPEN TO ALL CONTRIBUTIONS TO RESURRECTING THIS AND MAKING IT STABLE FOR THOSE THAT STILL USE 1.7.10 FOR THEIR MODPACKS.
+# Contigo
 
-# DJOveryde
-
-![Thermos](thermos_icon.png)
-![Graph](http://i.mcstats.org/Thermos/Global+Statistics@2x.borderless.png)
+![Contigo](contigo_icon.png)
+<!--- ![Graph](http://i.mcstats.org/Thermos/Global+Statistics@2x.borderless.png) --->
 
 [![Build Status](https://travis-ci.org/CyberdyneCC/Thermos.svg?branch=master)](https://travis-ci.org/CyberdyneCC/Thermos)
 ![Minecraft Forge v10.13.4.1614][forge]
@@ -13,10 +11,10 @@
 ![Java JDK v1.8][java]
 ![Spigot 1.7.10 Snapshot ][spigot]
 
-### What's Thermos?
-Thermos is a fork of KCauldron, a craftbukkit forge server for Minecraft 1.7.10. After periods of inactivity on KCauldron's GitLab concerning major issues, Thermos was created to allow active members of the Minecraft coding community to optimize it and provide fixes in a timely manner.
+### What's Contigo?
+Contigo is a fork of Thermos, a craftbukkit forge server for Minecraft 1.7.10. After Thermos was discontinued, Contigo was created to allow active members of the Minecraft coding community to optimize it and provide fixes in a timely manner.
 
-We hope to eliminate all issues with craftbukkit forge servers. In the end, we envision a seamless, low lag Thermos experience.
+We hope to eliminate all issues with craftbukkit forge servers. In the end, we envision a seamless, low lag Contigo experience with support for new 1.8+ versions of Minecraft.
 
 Advantages over KCauldron:
 + Lag-lowering optimizations
@@ -28,10 +26,10 @@ Advantages over KCauldron:
 ## Installation
 Click [here](http://cyberdynecc.github.io/Thermos/install)
 
-## Downloads
-You can download the pre-built packages from [here](https://github.com/CyberdyneCC/Thermos/releases). 
-
-**Thermos is still in beta and you may encounter issues in using it with your server. You have been warned!**
+<!--- ### Downloads
+#You can download the pre-built packages from [here](https://github.com/CyberdyneCC/Thermos/releases). 
+--->
+**Contigo is still in early alpha and you may encounter issues in using it with your server. You have been warned!**
 
 P.S. **PLEASE** look at the release notes before downloading! :smile:
 
@@ -40,24 +38,20 @@ P.S. **PLEASE** look at the release notes before downloading! :smile:
 
 ## Chat
 
-Feel free to drop in on the CyberdyneCC Discord chat [here](https://discord.gg/0yZaOwSQocQHebex)
-
+Feel free to drop in on the Contigo Discord chat [here](https://discord.gg/cNpacKk)
 
 ## Contributing
 
-Please read the [guide](https://github.com/CyberdyneCC/Thermos/blob/master/CONTRIBUTING.md) on how to contribute - Thermos always needs improvements :smile: 
-
-
-
+Please read the [guide](https://github.com/gcallant/Contigo/blob/master/CONTRIBUTING.md) on how to contribute - Contigo always needs improvements :smile: 
 
 ## Build Requirements
 * Java 8u101 JDK or higher
 * `JAVA_HOME` defined on your OS
 
-## Building CyberdyneCC/Thermos
+## Building gcallant/Contigo
 * Checkout project
   * You can use IDE or clone from console:
-  `git clone https://github.com/djoveryde/Thermos.git`
+  `git clone https://github.com/gcallant/Contigo.git`
 * Setup
   * Auto: `setup.sh`
   * Manual:
