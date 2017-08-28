@@ -1,0 +1,11 @@
+!.gitignore
+
+# idea
+.idea
+*.iml
+
+# gradle
+build
+.gradle
+
+*.DS_Store
