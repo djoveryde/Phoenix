@@ -1,5 +1,8 @@
 !.gitignore
 
+# eclipse
+/eclipse
+
 # idea
 .idea
 *.iml
