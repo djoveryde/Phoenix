@@ -1,15 +1,15 @@
 # Since THERMOS is no longer being developed- and servers are reduced to using Sponge for 1.8+, this project is dedicated to renewing the ability for Minecraft servers to use native bukkit plugins along with Forge mods.
 
-# This is for the 1.11.x version of Contigo.
+# This is for the 1.10.x version of Contigo.
 
 # Contigo
 
 ![Contigo](contigo_icon.png)
 [![Build Status](https://travis-ci.org/djoveryde/Contigo-1.11.2.svg?branch=master)](https://travis-ci.org/djoveryde/Contigo_1.11)
 ![Minecraft Forge v13.20.1.2454][forge]
-![Minecraft v1.11.2][mc]
+![Minecraft v1.0.2][mc]
 ![Java JDK v1.8][java]
-![Spigot 1.11.2 Snapshot][spigot]
+![Spigot 1.10.2 Snapshot][spigot]
 
 ### What's Contigo?
 Contigo is a fork of Thermos, a craftbukkit forge server for Minecraft 1.7.10. After Thermos was discontinued, Contigo was created to allow active members of the Minecraft coding community to optimize it and provide fixes in a timely manner.
@@ -30,7 +30,7 @@ Advantages over KCauldron:
 Click [here](http://cyberdynecc.github.io/Thermos/install)
 
 <!--- ### Downloads
-#You can download the pre-built packages from [here](https://github.com/djoveryde/Contigo_1.11/releases).
+#You can download the pre-built packages from [here](https://github.com/djoveryde/Contigo/releases).
 --->
 **Contigo is still in early alpha and you may encounter issues in using it with your server. You have been warned!**
 
@@ -45,7 +45,7 @@ Feel free to drop in on the Contigo Discord chat [here](https://discord.gg/cNpac
 
 ## Contributing
 
-Please read the [guide](https://github.com/djoveryde/Contigo-1.11.2/blob/master/CONTRIBUTING.md) on how to contribute - Contigo always needs improvements :smile:
+Please read the [guide](https://github.com/djoveryde/Contigo/blob/master/CONTRIBUTING.md) on how to contribute - Contigo always needs improvements :smile:
 
 ## Build Requirements
 * Java 8u101 JDK or higher
@@ -54,7 +54,7 @@ Please read the [guide](https://github.com/djoveryde/Contigo-1.11.2/blob/master/
 ## Building djoveryde/Contigo
 * Checkout project
   * You can use IDE or clone from console:
-  `git clone -b 1.11.x https://github.com/djoveryde/Contigo_1.11.git`
+  `git clone -b 1.10.x https://github.com/djoveryde/Contigo.git`
 * Setup
   * Auto: `setup.sh`
   * Manual:
