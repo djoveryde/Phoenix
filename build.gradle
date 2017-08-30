@@ -38,11 +38,11 @@ tasks.whenTaskAdded {
 }
 
 task wrapper(type: Wrapper) {
-    gradleVersion = '2.8'
+    gradleVersion = '2.14'
 }
 
 apply plugin: 'maven'
-apply plugin: 'cauldron'
+// apply plugin: 'cauldron'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
 
