@@ -1,0 +1,23 @@
+language: java
+jdk:
+- oraclejdk8
+before_install: git submodule update --init --recursive
+install: echo "WOO, time to take over the world!"
+before_script: find .
+before_cache:
+- rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
+cache:
+  directories:
+  - "$HOME/.gradle/caches/2.8/"
+  - "$HOME/.gradle/wrapper/"
+  - "$HOME/build/distributions/"
+  - "$HOME/release/"
+script: "./travii/make.sh"
+deploy:
+  provider: releases
+  file_glob: true
+  skip_cleanup: true
+  file: "$HOME/release/*"
+  on:
+    repo: djoveryde/Contigo
+    tags: true
