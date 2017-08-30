@@ -79,7 +79,7 @@ repositories {
 
 minecraft {
     version = '1.10'
-    mcpVersion = '9.37'
+    mcpVersion = '9.31'
     mainClass = 'net.minecraftforge.fml.relauncher.ServerLaunchWrapper'
     tweakClass = 'net.minecraftforge.fml.common.launcher.FMLTweaker'
     installerVersion = "1.5"
