@@ -4,7 +4,7 @@ rm -r $HOME/release/*
 cd MinecraftForge
 git checkout b3a1548cfaac77e9756168a8887270f8181487ad
 cd ..
-git pull origin master
+git pull origin 1.12.x
 ./gradlew --parallel -PofficialBuild clean setupCauldron --parallel jar
 cp build/distributions/Thermos*server* $HOME/release/Thermos-1.12.1-1448-server.jar
 
@@ -12,7 +12,7 @@ cp build/distributions/Thermos*server* $HOME/release/Thermos-1.12.1-1448-server.
 cd MinecraftForge
 git checkout c308a47124394f025bc2ba553646ecf8b6c31ba2
 cd ..
-git pull origin master
+git pull origin 1.12.x
 ./gradlew --parallel -PofficialBuild clean setupCauldron --parallel jar
 cp build/distributions/Thermos*server* $HOME/release/Thermos-1.12.1-1492-server.jar
 
@@ -20,15 +20,15 @@ cp build/distributions/Thermos*server* $HOME/release/Thermos-1.12.1-1492-server.
 cd MinecraftForge
 git checkout aa8eaf2b286e809146b7faf4e59ce801a40eab9b
 cd ..
-git pull origin master
+git pull origin 1.12.x
 ./gradlew --parallel -PofficialBuild clean setupCauldron --parallel jar
 cp build/distributions/Thermos*server* $HOME/release/Thermos-1.12.1-1558-server.jar
 
 # 1614
 cd MinecraftForge
-git checkout c6aa04325e8a80af88755adb2339a402e7e90ebb
+git checkout 52702e5cc9c629b3b2baff6a726aabb168aced16
 cd ..
-git pull origin master
+git pull origin 1.12.x
 ./gradlew --parallel -PofficialBuild clean setupCauldron --parallel jar packageBundle
 cp build/distributions/Thermos*server* $HOME/release/Thermos-1.12.1-1614-server.jar
 cd build/distributions/
