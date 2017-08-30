@@ -5,11 +5,11 @@
 # Contigo
 
 ![Contigo](contigo_icon.png)
-[![Build Status](https://travis-ci.org/djoveryde/Contigo-1.11.2.svg?branch=master)](https://travis-ci.org/djoveryde/Contigo_1.11)
-![Minecraft Forge v13.20.1.2454][forge]
-![Minecraft v1.11.2][mc]
+[![Build Status](https://travis-ci.org/djoveryde/Contigo.svg?branch=1.12.x)](https://travis-ci.org/djoveryde/Contigo)
+![Minecraft Forge v14.22.0.2465][forge]
+![Minecraft v1.12.1][mc]
 ![Java JDK v1.8][java]
-![Spigot 1.11.2 Snapshot][spigot]
+![Spigot 1.12.1 Snapshot][spigot]
 
 ### What's Contigo?
 Contigo is a fork of Thermos, a craftbukkit forge server for Minecraft 1.7.10. After Thermos was discontinued, Contigo was created to allow active members of the Minecraft coding community to optimize it and provide fixes in a timely manner.
@@ -97,7 +97,7 @@ All builds will be in `build/distributions`
 ✔ SkinsRestorer: Latest working version is 10.4.4
 
 [Fixed]: http://gogs.tcpr.ca/TCPR/Fixes "Fixed"
-[Forge]: https://img.shields.io/badge/Minecraft%20Forge-v13.20.1.2454-green.svg "Minecraft Forge v13.20.1.2454"
-[mc]: https://img.shields.io/badge/Minecraft-v1.11.2-green.svg "Minecraft 1.11.2"
+[Forge]: https://img.shields.io/badge/Minecraft%20Forge-v14.22.0.2465-green.svg "Minecraft Forge v14.22.0.2465"
+[mc]: https://img.shields.io/badge/Minecraft-v1.12.1-green.svg "Minecraft 1.12.1"
 [java]: https://img.shields.io/badge/Java%20JDK-v1.8-blue.svg "Java JDK 8"
-[spigot]: https://img.shields.io/badge/Spigot-v1.11.2--R0.1--SNAPSHOT-green.svg "Spigot 1.11.2 R0.1 Snapshot"
+[spigot]: https://img.shields.io/badge/Spigot-v1.12.1--R0.1--SNAPSHOT-green.svg "Spigot 1.12.1 R0.1 Snapshot"
