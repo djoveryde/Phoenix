@@ -7,7 +7,7 @@
 ![Contigo](contigo_icon.png)
 [![Build Status](https://travis-ci.org/djoveryde/Contigo-1.11.2.svg?branch=master)](https://travis-ci.org/djoveryde/Contigo_1.11)
 ![Minecraft Forge v13.20.1.2454][forge]
-![Minecraft v1.0.2][mc]
+![Minecraft v1.10.2][mc]
 ![Java JDK v1.8][java]
 ![Spigot 1.10.2 Snapshot][spigot]
 
@@ -17,7 +17,7 @@ Contigo is a fork of Thermos, a craftbukkit forge server for Minecraft 1.7.10. A
 We hope to eliminate all issues with craftbukkit forge servers. In the end, we envision a seamless, low lag Contigo experience with support for new 1.8+ versions of Minecraft.
 
 ### djoveryde version?
-Since 1.11.X is now being used for a vast majority of current forge/ftb mods, as well as a need for it with regards to our own server. This is our attempt of updating Contigo/Thermos to a more recent version of Minecraft.
+Since 1.10.X is now being used for a vast majority of current forge/ftb mods, as well as a need for it with regards to our own server. This is our attempt of updating Contigo/Thermos to a more recent version of Minecraft.
 
 Advantages over KCauldron:
 + Lag-lowering optimizations
