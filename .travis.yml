@@ -8,7 +8,7 @@ before_cache:
 - rm -f $HOME/.gradle/caches/modules-2/modules-2.lock
 cache:
   directories:
-  - "$HOME/.gradle/caches/"
+  - "$HOME/.gradle/caches/2.8/"
   - "$HOME/.gradle/wrapper/"
   - "$HOME/build/distributions/"
   - "$HOME/release/"
