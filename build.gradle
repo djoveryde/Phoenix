@@ -78,12 +78,12 @@ repositories {
 }
 
 minecraft {
-    version = '1.12'
+    version = '1.12.1'
     mcpVersion = '9.40'
     mainClass = 'net.minecraftforge.fml.relauncher.ServerLaunchWrapper'
     tweakClass = 'net.minecraftforge.fml.common.launcher.FMLTweaker'
     installerVersion = "1.5"
-    srgExtra "PK: org/bukkit/bukkit org/bukkit/bukkit/1.12-R0.1-SNAPSHOT"
+    srgExtra "PK: org/bukkit/bukkit org/bukkit/bukkit/1.12.1-R0.1-SNAPSHOT"
 }
 
 group = 'djoveryde'
@@ -128,7 +128,7 @@ def gitInfo(String key) {
     return key ? gitInfoCached[key] : gitInfoCached;
 }
 
-ext.mcVersion = "1.12"
+ext.mcVersion = "1.12.1"
 ext.forgeVersion = VersionParser.parseForgeRevision(file('src/main/resources/fmlversion.properties'))
 ext.revision = project.hasProperty('revision') ? project.getProperty('revision') : buildInfo('nextBuildNumber')
 version = "${mcVersion}-${forgeVersion}.${revision}"
@@ -179,7 +179,7 @@ dependencies {
     libraries 'org.xerial:sqlite-jdbc:3.7.2'
     libraries 'mysql:mysql-connector-java:5.1.14'
     libraries 'javax.persistence:persistence-api:1.0.2'
-    libraries 'net.minecraft:server:1.12'
+    libraries 'net.minecraft:server:1.12.1'
     libraries 'pw.prok:KImagine:0.2.0@jar'
     libraries 'org.apache.httpcomponents:httpclient:4.4.1'
     libraries 'net.openhft:affinity:3.0.1'
@@ -221,7 +221,7 @@ def generateManifest(boolean legacy = false) {
             'Implementation-Version': project.version,
             'Specification-Vendor'  : 'Bukkit Team',
             'Specification-Title'   : 'Bukkit',
-            'Specification-Version' : '1.12-R0.1-SNAPSHOT',
+            'Specification-Version' : '1.12.1-R0.1-SNAPSHOT',
             'Forge-Version'         : VersionParser.parseForgeVersion(file('forge/src/main/java/net/minecraftforge/common/ForgeVersion.java'), file('src/main/resources/fmlversion.properties')),
             'TweakClass'            : 'net.minecraftforge.fml.common.launcher.FMLTweaker',
             'Main-Class'            : 'net.minecraftforge.fml.relauncher.ServerLaunchWrapper',
