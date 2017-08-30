@@ -1,0 +1,12 @@
+[submodule "bukkit"]
+	path = bukkit
+	url = https://hub.spigotmc.org/stash/scm/spigot/bukkit.git
+	branch = 1.11+
+[submodule "MinecraftForge"]
+	path = MinecraftForge
+	url = https://github.com/MinecraftForge/MinecraftForge
+	branch = 1.11.x
+[submodule "forge"]
+	path = forge
+	url = https://github.com/MinecraftForge/MinecraftForge
+	branch = 1.11.x
