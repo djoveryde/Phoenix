@@ -4,7 +4,7 @@
 /eclipse
 
 # idea
-.idea
+.idea/
 *.iml
 
 # gradle
@@ -12,3 +12,14 @@ build
 .gradle
 
 *.DS_Store
+ # various other potential build files
+ /build
+ 
+  /projects
+  /plugin
+  /eclipse
+  /.gradle
+  
+ # intellij
+ *.ipr
+ *.iws
