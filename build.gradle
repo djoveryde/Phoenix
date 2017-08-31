@@ -424,3 +424,4 @@ task resolveAllDependencies {
     }
 }
 }
+}
