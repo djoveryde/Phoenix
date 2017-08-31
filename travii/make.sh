@@ -3,7 +3,7 @@ rm -r $HOME/release/*
 
 # 2422
 cd forge
-git checkout c6aa04325e8a80af88755adb2339a402e7e90ebb
+git checkout 0965ebae0942421628810aff1a5360b4ae8715b9
 cd ..
 git pull origin master
 ./gradlew --parallel -PofficialBuild clean setupCauldron --parallel jar packageBundle
