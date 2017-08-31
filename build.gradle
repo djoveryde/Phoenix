@@ -45,6 +45,9 @@ apply plugin: 'maven'
 apply plugin: 'cauldron'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
+apply plugin: 'java'
+apply plugin: 'net.minecraftforge.gradle.patcher
+apply plugin: 'net.minecraftforge.gradle.launch4j'
 
 repositories {
     clear()
@@ -84,6 +87,10 @@ minecraft {
     tweakClass = 'net.minecraftforge.fml.common.launcher.FMLTweaker'
     installerVersion = "1.5"
     srgExtra "PK: org/bukkit/bukkit org/bukkit/bukkit/1.10.2-R0.1-SNAPSHOT"
+    versionJson = "jsons/1.10.2-dev.json"
+    buildUserdev = true
+    buildInstaller = true
+    InstallerVersion = '1.4'
 }
 
 group = 'djoveryde'
@@ -135,8 +142,41 @@ version = "${mcVersion}-${forgeVersion}.${revision}"
 if (project.hasProperty('officialBuild')) println "Updated Thermos version: ${version}"
 
 launch4j {
-    jreMinVersion = '1.8.0'
-}
+     jar = installer.archivePath.canonicalPath
+     outfile = file("build/distributions/${project.name}-${project.version}-installer-win.exe").canonicalPath
+     icon = file('icon.ico').canonicalPath
+     manifest = file('l4jManifest.xml').canonicalPath
+     jreMinVersion = '1.8.0'
+     initialHeapPercent = 5;
+     maxHeapPercent = 100;
+ }
+ tasks.generateXmlConfig.dependsOn installer
+ tasks.build.dependsOn 'launch4j'
+ 
+ task signUniversal(type: SignJar, dependsOn: 'outputJar') {
+     onlyIf {
+         project.hasProperty('jarsigner')
+     }
+ 
+     def jarsigner = [:];
+ 
+     if (project.hasProperty('jarsigner'))
+         jarsigner = project.jarsigner;
+ 
+     alias = 'forge'
+     exclude "paulscode/**"
+     storePass = jarsigner.storepass
+     keyPass = jarsigner.keypass
+     keyStore = jarsigner.keystore
+     inputFile = outputJar.archivePath
+     outputFile = outputJar.archivePath
+ }
+ build.dependsOn signUniversal
+ installer.dependsOn signUniversal
+ 
+ outputJar {
+     classifier = 'universal'
+ 	
 
 configurations {
     compile.extendsFrom exported
