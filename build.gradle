@@ -415,3 +415,4 @@ task resolveAllDependencies {
         configurations.each { it.resolve() }
     }
 }
+}
