@@ -78,12 +78,12 @@ repositories {
 }
 
 minecraft {
-    version = '1.11'
-    mcpVersion = '9.37'
-    mainClass = 'net.minecraftforge.fml.relauncher.ServerLaunchWrapper'
-    tweakClass = 'net.minecraftforge.fml.common.launcher.FMLTweaker'
-    installerVersion = "1.5"
-    srgExtra "PK: org/bukkit/bukkit org/bukkit/bukkit/1.11.2-R0.1-SNAPSHOT"
+    version = '1.11.2'
+    mcpVersion = '31.1'
+    mainClass = 'cpw.mods.fml.relauncher.ServerLaunchWrapper'
+    tweakClass = 'cpw.mods.fml.common.launcher.FMLTweaker'
+    installerVersion = "1.4"
+    srgExtra "PK: org/bukkit/craftbukkit org/bukkit/craftbukkit/v1_11_R1"
 }
 
 group = 'djoveryde'
