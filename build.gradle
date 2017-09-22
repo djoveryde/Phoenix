@@ -7,7 +7,7 @@ buildscript {
     repositories {
         maven {
             name 'prok'
-            url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+            url 'http://build.resurgent.network/kcauldron/files/'
         }
         maven {
             name 'forge'
@@ -42,12 +42,12 @@ task wrapper(type: Wrapper) {
 }
 
 apply plugin: 'maven'
-//apply plugin: 'cauldron'
+apply plugin: 'cauldron'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
 apply plugin: 'java'
-//apply plugin: 'net.minecraftforge.gradle.patcher'
-//apply plugin: 'net.minecraftforge.gradle.launch4j'
+apply plugin: 'net.minecraftforge.gradle.patcher'
+apply plugin: 'net.minecraftforge.gradle.launch4j'
 
 repositories {
     clear()
@@ -57,7 +57,7 @@ repositories {
     }
     maven {
         name 'prok'
-        url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+        url 'http://build.resurgent.network/kcauldron/files/'
     }
     maven {
         name 'forge'
@@ -314,7 +314,7 @@ publishing {
     repositories {
         maven {
             name 'ProK'
-            url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+            url 'http://build.resurgent.network/kcauldron/files/'
             credentials {
                 username project.hasProperty('prokRepoUsername') ? prokRepoUsername : null
                 password project.hasProperty('prokRepoPassword') ? prokRepoPassword : null
@@ -349,7 +349,7 @@ repositories {
     clear()
     maven {
         name 'prok'
-        url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+        url 'http://build.resurgent.network/kcauldron/files/'
     }
     maven {
         name 'forge'
