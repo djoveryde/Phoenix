@@ -7,7 +7,7 @@ buildscript {
     repositories {
         maven {
             name 'prok'
-            url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+            url 'http://build.resurgent.network/kcauldron/files/'
         }
         maven {
             name 'forge'
@@ -54,7 +54,7 @@ repositories {
     }
     maven {
         name 'prok'
-        url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+        url 'http://build.resurgent.network/kcauldron/files/'
     }
     maven {
         name 'forge'
@@ -86,7 +86,7 @@ minecraft {
     srgExtra "PK: org/bukkit/craftbukkit org/bukkit/craftbukkit/v1_7_R4"
 }
 
-group = 'cyberdynecc'
+group = 'djoveryde'
 
 ext.buildInfoCached = null;
 
@@ -131,7 +131,7 @@ ext.mcVersion = "1.7.10"
 ext.forgeVersion = VersionParser.parseForgeRevision(file('src/main/resources/fmlversion.properties'))
 ext.revision = project.hasProperty('revision') ? project.getProperty('revision') : buildInfo('nextBuildNumber')
 version = "${mcVersion}-${forgeVersion}.${revision}"
-if (project.hasProperty('officialBuild')) println "Updated Thermos version: ${version}"
+if (project.hasProperty('officialBuild')) println "Updated Phoenix version: ${version}"
 
 launch4j {
     jreMinVersion = '1.7.0'
@@ -215,7 +215,7 @@ def generateManifest(boolean legacy = false) {
             'Thermos-Channel'       : project.name,
             'Thermos-Version'       : project.version,
             'Thermos-Legacy'        : legacy,
-            'Implementation-Vendor' : 'CyberdyneCC',
+            'Implementation-Vendor' : 'djoveryde',
             'Implementation-Title'  : project.name,
             'Implementation-Version': project.version,
             'Specification-Vendor'  : 'Bukkit Team',
@@ -310,7 +310,7 @@ publishing {
     repositories {
         maven {
             name 'ProK'
-            url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+            url 'http://build.resurgent.network/kcauldron/files/'
             credentials {
                 username project.hasProperty('prokRepoUsername') ? prokRepoUsername : null
                 password project.hasProperty('prokRepoPassword') ? prokRepoPassword : null
@@ -345,7 +345,7 @@ repositories {
     clear()
     maven {
         name 'prok'
-        url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+        url 'http://build.resurgent.network/kcauldron/files/'
     }
     maven {
         name 'forge'
