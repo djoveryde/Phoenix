@@ -7,7 +7,7 @@ buildscript {
     repositories {
         maven {
             name 'prok'
-            url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+            url 'http://build.resurgent.network/kcauldron/files/'
         }
         maven {
             name 'forge'
@@ -57,7 +57,7 @@ repositories {
     }
     maven {
         name 'prok'
-        url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+        url 'http://build.resurgent.network/kcauldron/files/'
     }
     maven {
         name 'forge'
@@ -147,7 +147,7 @@ ext.mcVersion = "1.10"
 ext.forgeVersion = VersionParser.parseForgeRevision(file('src/main/resources/fmlversion.properties'))
 ext.revision = project.hasProperty('revision') ? project.getProperty('revision') : buildInfo('nextBuildNumber')
 version = "${mcVersion}-${forgeVersion}.${revision}"
-if (project.hasProperty('officialBuild')) println "Updated Thermos version: ${version}"
+if (project.hasProperty('officialBuild')) println "Updated Phoenix version: ${version}"
 
 launch4j {
      jar = installer.archivePath.canonicalPath
@@ -359,7 +359,7 @@ publishing {
     repositories {
         maven {
             name 'ProK'
-            url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+            url 'http://build.resurgent.network/kcauldron/files/'
             credentials {
                 username project.hasProperty('prokRepoUsername') ? prokRepoUsername : null
                 password project.hasProperty('prokRepoPassword') ? prokRepoPassword : null
@@ -394,7 +394,7 @@ repositories {
     clear()
     maven {
         name 'prok'
-        url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+        url 'http://build.resurgent.network/kcauldron/files/'
     }
     maven {
         name 'forge'
