@@ -7,7 +7,7 @@ buildscript {
     repositories {
         maven {
             name 'prok'
-            url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+            url 'http://build.resurgent.network/kcauldron/files/'
         }
         maven {
             name 'forge'
@@ -42,7 +42,7 @@ task wrapper(type: Wrapper) {
 }
 
 apply plugin: 'maven'
-// apply plugin: 'cauldron'
+apply plugin: 'cauldron'
 apply plugin: 'maven-publish'
 apply plugin: 'signing'
 
@@ -54,7 +54,7 @@ repositories {
     }
     maven {
         name 'prok'
-        url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+        url 'http://build.resurgent.network/kcauldron/files/'
     }
     maven {
         name 'forge'
@@ -132,7 +132,7 @@ ext.mcVersion = "1.12.1"
 ext.forgeVersion = VersionParser.parseForgeRevision(file('src/main/resources/fmlversion.properties'))
 ext.revision = project.hasProperty('revision') ? project.getProperty('revision') : buildInfo('nextBuildNumber')
 version = "${mcVersion}-${forgeVersion}.${revision}"
-if (project.hasProperty('officialBuild')) println "Updated Contigo version: ${version}"
+if (project.hasProperty('officialBuild')) println "Updated Phoenix version: ${version}"
 
 launch4j {
     jreMinVersion = '1.8.0'
@@ -311,7 +311,7 @@ publishing {
     repositories {
         maven {
             name 'ProK'
-            url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+            url 'http://build.resurgent.network/kcauldron/files/'
             credentials {
                 username project.hasProperty('prokRepoUsername') ? prokRepoUsername : null
                 password project.hasProperty('prokRepoPassword') ? prokRepoPassword : null
@@ -346,7 +346,7 @@ repositories {
     clear()
     maven {
         name 'prok'
-        url 'https://djoveryde.000webhostapp.com/kcauldron/files/'
+        url 'http://build.resurgent.network/kcauldron/files/'
     }
     maven {
         name 'forge'
