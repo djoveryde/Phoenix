@@ -1,23 +1,23 @@
 # Since THERMOS is no longer being developed- and servers are reduced to using Sponge for 1.8+, this project is dedicated to renewing the ability for Minecraft servers to use native bukkit plugins along with Forge mods.
 
-# This is for the 1.12.x version of Contigo.
+# This is for the 1.12.x version of Phoenix.
 
-# Contigo
+# Phoenix
 
-![Contigo](contigo_icon.png)
-[![Build Status](https://travis-ci.org/djoveryde/Contigo.svg?branch=1.12.x)](https://travis-ci.org/djoveryde/Contigo)
+![Phoenix](Phoenix_icon.png)
+[![Build Status](https://travis-ci.org/djoveryde/Phoenix.svg?branch=1.12.x)](https://travis-ci.org/djoveryde/Phoenix)
 ![Minecraft Forge v14.22.0.2465][forge]
 ![Minecraft v1.12.1][mc]
 ![Java JDK v1.8][java]
 ![Spigot 1.12.1 Snapshot][spigot]
 
-### What's Contigo?
-Contigo is a fork of Thermos, a craftbukkit forge server for Minecraft 1.7.10. After Thermos was discontinued, Contigo was created to allow active members of the Minecraft coding community to optimize it and provide fixes in a timely manner.
+### What's Phoenix?
+Phoenix is a fork of Thermos, a craftbukkit forge server for Minecraft 1.7.10. After Thermos was discontinued, Phoenix was created to allow active members of the Minecraft coding community to optimize it and provide fixes in a timely manner.
 
-We hope to eliminate all issues with craftbukkit forge servers. In the end, we envision a seamless, low lag Contigo experience with support for new 1.8+ versions of Minecraft.
+We hope to eliminate all issues with craftbukkit forge servers. In the end, we envision a seamless, low lag Phoenix experience with support for new 1.8+ versions of Minecraft.
 
 ### djoveryde version?
-Since 1.12.X is now being used for a vast majority of current forge/ftb mods, as well as a need for it with regards to our own server. This is our attempt of updating Contigo/Thermos to a more recent version of Minecraft.
+Since 1.12.X is now being used for a vast majority of current forge/ftb mods, as well as a need for it with regards to our own server. This is our attempt of updating Phoenix/Thermos to a more recent version of Minecraft.
 
 Advantages over KCauldron:
 + Lag-lowering optimizations
@@ -26,13 +26,10 @@ Advantages over KCauldron:
 + Dupe glitch fixes
 
 
-## Installation
-Click [here](http://cyberdynecc.github.io/Thermos/install)
-
 <!--- ### Downloads
-#You can download the pre-built packages from [here](https://github.com/djoveryde/Contigo/releases).
+#You can download the pre-built packages from [here](https://github.com/djoveryde/Phoenix/releases).
 --->
-**Contigo is still in early alpha and you may encounter issues in using it with your server. You have been warned!**
+**Phoenix is still in early alpha and you may encounter issues in using it with your server. You have been warned!**
 
 P.S. **PLEASE** look at the release notes before downloading! :smile:
 
@@ -41,20 +38,20 @@ P.S. **PLEASE** look at the release notes before downloading! :smile:
 
 ## Chat
 
-Feel free to drop in on the Contigo Discord chat [here](https://discord.gg/cNpacKk)
+Feel free to drop in on the Phoenix Discord chat [here](https://discord.gg/Qfppqxf)
 
 ## Contributing
 
-Please read the [guide](https://github.com/djoveryde/Contigo/blob/master/CONTRIBUTING.md) on how to contribute - Contigo always needs improvements :smile:
+Please read the [guide](https://github.com/djoveryde/Phoenix/blob/master/CONTRIBUTING.md) on how to contribute - Phoenix always needs improvements :smile:
 
 ## Build Requirements
 * Java 8u101 JDK or higher
 * `JAVA_HOME` defined on your OS
 
-## Building djoveryde/Contigo
+## Building djoveryde/Phoenix
 * Checkout project
   * You can use IDE or clone from console:
-  `git clone -b 1.12.x https://github.com/djoveryde/Contigo.git`
+  `git clone -b 1.12.x https://github.com/djoveryde/Phoenix.git`
 * Setup
   * Auto: `setup.sh`
   * Manual:
